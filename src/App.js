@@ -30,7 +30,7 @@ function App() {
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
             Frontend Mentor
           </a>
-          . Coded by <a href="">Vishal</a>.
+          . Coded by <a href="https://vb8146649.github.io/portfolio/">Vishal</a>.
         </div>
       </footer>
     </>

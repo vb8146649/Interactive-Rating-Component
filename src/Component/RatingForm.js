@@ -65,7 +65,7 @@ function RatingForm({setNum}) {
       </div>
       <button
         type="submit"
-        className="bg-orange-500 mt-4 text-black w-full p-3 tracking-widest rounded-full font-bold "
+        className="bg-orange-500 mt-4 text-black w-full p-3 tracking-widest hover:bg-white rounded-full font-bold "
       >
         SUBMIT
       </button>
