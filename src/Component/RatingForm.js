@@ -8,7 +8,8 @@ function RatingForm({setNum}) {
     4: ["peer-checked/rating4:bg-orange-500 peer-focus/rating4:border peer-checked/rating4:text-black","peer/rating4"], 
     5: ["peer-checked/rating5:bg-orange-500 peer-focus/rating5:border peer-checked/rating5:text-black","peer/rating5"],
   };
-  const [rating,setRating]=useState(null);
+  // const [rating,setRating]=useState(null);
+  let rating = null;
   const handleSubmit = (e) => {
     e.preventDefault(); // Prevent default form submission
     setNum(rating);
@@ -51,7 +52,7 @@ function RatingForm({setNum}) {
                 defaultValue={key}
                 required=""
                 aria-required="true"
-                onChange={(e)=>setRating(e.target.value)}
+                onChange={(e)=>(rating=e.target.value)}
               />
               <label
                 htmlFor={"rating" + key}
