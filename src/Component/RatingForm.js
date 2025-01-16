@@ -66,7 +66,7 @@ function RatingForm({ setNum }) {
                   className={`${item[1]} appearance-none sr-only `}
                   name="rating"
                   defaultValue={key}
-                  required=""
+                  required
                   aria-required="true"
                   onChange={(e) => (rating = e.target.value)}
                 />
